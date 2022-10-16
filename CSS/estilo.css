@@ -1,0 +1,14 @@
+
+
+.btn{
+    display: inline-block;
+    background-color: blue;
+    color:whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+body{
+    background-color: blue;
+    
+}
