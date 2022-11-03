@@ -1,53 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-        <meta charset="tf-8">
-        <link rel="stylesheet" href="CSS/estilo.css" type="css">
-        <title>Portafolio</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilo.css">
+        <script src="script/jscript.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <title>Portafolio ISC</title>
     </head>
 
-    <body>
-        <header>
-            <table align="center" width="100%">
-                <td align="left"><img src="" class="logo-tec" alt="Logo del Tecnologico"></td>
-                <td align="center"><h1>Portafolio de Programación Web</h1></td>
-                <td align="right"><img src="" class="logo-carrera" alt="Logo de Sistemas Computacionales"></td>
-            </table>
+
+    <body> 
+        <header class="fondo-header">
+            <div class="contenedor-logos">
+                <img src="Imagenes/logo_tecnm.png" alt="Logo-TecNM" class="logo-tec">
+                 <p class="texto_head">Portafolio</p>
+                <img src="Imagenes/logo_fcp.png" alt="Logo-TecFCP " class="logo-fcp">
+            </div>
+
+            <nav class="menu-sitio">
+                <a href="" class="btn">Inicio</a>
+                <a href="" class="btn">Informacion</a>
+                <a href="" class="btn">Contacto</a>
+            </nav>
         </header>
-        <br>
+       
+        <section class="cont-unidades">
+            <div class="cont-img-port">
+                <p class="titulo-principal">Programación web</p>
+                <img class="img_principal" src="Imagenes/logo_de_carrera.jpg">
+            </div>
+
+            <hr width="90%">
 
 
-        <nav class="btn" align="center">
-            <a href="">Unidad 1</a>
-            <a href="">Unidad 2</a>
-            <a href="">Unidad 3</a>
-            <a href="">Unidad 4</a>
-            <a href="">Unidad 5</a>
-        </nav>
+            <h2 class="t-unidades">Unidades</h2>
+
+            <div class="unidadesmateria">
+                <article class="unidad">
+                    <div class="cont-unidad">
+                        <h3 class="titulo">Unidad 1</h3>
+                        <img class="img-card" src="https://loremflickr.com/320/320/school" alt="" onclick="mostrar_m()">
+                        <p class="textoU" onclick="mostrar_m()">Introducción App Web </p>
+                        <a href="" class="btn" onclick="">Ver</a>
+                    </div>
+                </article>
+
+                <article class="unidad">
+                    <div class="cont-unidad">
+                        <h3 class="titulo">Unidad 2</h3>
+                        <img class="img-card" src="https://loremflickr.com/320/320/school" alt="" onclick="mostrar_m()">
+                        <p class="textoU" onclick="mostrar_m()">HTML, XML y CSS</p>
+                        <a href="" class="btn">Ver</a>
+                    </div>
+                </article>
+
+                <article class="unidad">
+                    <div class="cont-unidad">
+                        <h3 class="titulo">Unidad 3</h3>
+                        <img class="img-card" src="https://loremflickr.com/320/320/school" alt="" onclick="mostrar_m()">
+                        <p class="textoU" onclick="mostrar_m()">Front end</p>
+                        <a href="" class="btn">Ver</a>
+                    </div>
+                </article>
+
+                <article class="unidad">
+                    <div class="cont-unidad">
+                        <h3 class="titulo">Unidad 4</h3>
+                        <img class="img-card" src="https://loremflickr.com/320/320/school" alt="" onclick="mostrar_m()">
+                        <p class="textoU" onclick="mostrar_m()">Back End </p>
+                        <a href="" class="btn">Ver</a>
+                    </div>
+                </article>
+
+                <article class="unidad">
+                    <div class="cont-unidad">
+                        <h3 class="titulo">Unidad 5</h3>
+                        <img class="img-card" src="https://loremflickr.com/320/320/school" alt="" onclick="mostrar_m()">
+                        <p class="textoU" onclick="mostrar_m()">Computo en la nube/Servicios</p>
+                        <a href="" class="btn">Ver</a>
+                    </div>
+                </article>
 
 
-        <H2 align="center">Descripcion</H2>
-        <p height=70%>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nostrum perferendis 
-         quibusdam, alias praesentium molestiae minima error temporibus aspernatur, eligendi repellat. 
-         Corrupti blanditiis architecto similique impedit veniam commodi reprehenderit pariatur.</p>
+            </div>
+            </article>
+        </section>
 
-         <section>
-            <div class="body-card">
-                <h3 Align = "center">Texto</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                   Ipsa corrupti voluptatum illo tempora nobis adipisci 
-                   similique accusantium nemo, nihil dolores vitae ex 
-                   rerum perferendis obcaecati natus quo? Dolor, et exercitationem!</p>
-         </section>
-
-<hr>
         <footer>
             <p>Juan Carlos Torres Yah</p>
-            <p></p>
-            <p><a href="https://facebook.com">Facebook</a></p>
-            <p><a href="https://github.com/JuanCarlosTorresYah">Github</a></p>
-    </footer>
+            <div class="redes">
+                <div class="contContacto">
+                    <img src="Imagenes/logo_face.png" alt="Logo de Facebook" class="img-con">
+                    <a class="contacto" href="https://facebook.com">Facebook</a>
+                </div>
 
+                <div class="contContacto">
+                    <img src="Imagenes/logo_github.png" alt="Logo de Github" class="img-con">
+                    <a class="contacto" href="https://github.com/JuanCarlosTorresYah">Github</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--Mensaje de error-->
+        <script>
+            function mostrar_m(){
+                swal('Error','Sección en desarrollo','error');
+            }
+        </script>
 
     </body>
 </html>
